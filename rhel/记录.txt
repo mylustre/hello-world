@@ -1,3 +1,0 @@
-1.新安装rhel运行yum grouplist | more 报错
-
-2.netstat 报错：bash netstat command not found。 需要yum install net-tools

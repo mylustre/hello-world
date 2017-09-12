@@ -1,12 +1,15 @@
 wmware workstation 12 安装rhel7.2
-1.yum repolist all 显示： There are no enabled repos
+1.新安装rhel运行yum grouplist | more 报错显示： There are no enabled repos
   解决方法：https://linuxconfig.org/rhel-7-solution-to-there-are-no-enabled-repos-message
   把光盘挂载到media目录下，设置本地yum源。
-2.安装图形用户界面：
+
+2.netstat 报错：bash netstat command not found。 需要yum install net-tools
+
+3.安装图形用户界面：
   yum grouplist | more  确认有哪些可用的安装
-3.yum install "Server with GUI"
+4.yum install "Server with GUI"
    startx 可进入desktop
-4.wmware中，编辑/虚拟网络编辑器编辑vmnet8，nat模式，DHCP“还原默认值”，启动linux，进入desktop修改网络配置dhcp自动获取IP地址即可上网。
+5.wmware中，编辑/虚拟网络编辑器编辑vmnet8，nat模式，DHCP“还原默认值”，启动linux，进入desktop修改网络配置dhcp自动获取IP地址即可上网。
   windows主机和虚机可以相互ping通
-5.windows主机下载putty和ssh file transfer 实现windows主机和虚机linux文件传输
-6.yum install git
+6.windows主机下载putty和ssh file transfer 实现windows主机和虚机linux文件传输
+7.yum install git
