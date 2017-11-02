@@ -1,5 +1,5 @@
 # hello-world
-  ##hello—github
+  ## hello—github
 *to open a new window*
 * 1.learn how to use git and github.
 * 2.keep fit.
