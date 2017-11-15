@@ -1,2 +1,30 @@
 ﻿《Ubuntu完美应用》作者：何晓龙
+前言：
+Ubuntu集桌面，移动设备和服务器操作为基础，支持云计算和云存储服务，拥有完善的体系。
+
+以Ubuntu16.04为基础
+debian和ubuntu是互联网上最流行的服务器系统，管理他们最理想的工具就是ubuntu桌面版。
+本书配套资源：http://pan.baidu.com/s/lpKI9I0j
+
+
+官方网站：www.ubuntu.com
+第一章：Ubuntu的进化：
+1.Ubuntu是什么：来自单词Ubantu：非洲的人道主义的意思。代表着开放，自由，共享的精神。
+2.丰富的发行版：从支持的处理器分，不同的CPU实现技术不同，体系架构不同，Ubuntu会编译出支持不同CPU类型的发行版。Ubuntu16.04支持i386 32位系列，amd64为X86系列，arm系列和PowerPC系列处理器。
+3.从用途分：desktop（PC），server（企业），cloud（云操作系统），touch（移动端，已经由魅族生产和销售），庞大的生态系统。
+4.根据开发项目划分：不同发行本内置了许多软件和应用，用于不同的项目。比如edUbuntu是ubuntu的教育发行本。
+5Ubuntu桌面环境：默认Unity，KDE，GNOME，LXDE。
+6.Ubuntu Kylin 优麒麟专门为中文用户定制，预置了大量中国用户熟悉的应用：金山WPS，搜狗输入法，金山快盘，中国农历等。
+
+所有Ubuntu衍生版本有一个完整、权威的家谱：
+
+https://commons.wikimedia.org/wiki/File:UbuntuFamilyTree1210.svg
+
+7.发展路线图：
+版本号定义：年份的最后一位.发布月份。开发代号：形容词+动物，首字母要相同。每六个月更新一个版本。开发代号中的LTS（last term support）表示是长期支持的发行版。
+8.社区
+国际社区：community.ubuntu.com
+中文：http://forum.ubuntu.org.cn/
+http://wiki.ubuntu.org.cn
+
 
