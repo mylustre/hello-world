@@ -15,5 +15,5 @@
 
 
 # 4.1 Python IDE
-* [pycharm](http://www.jetbrains.com/pytharm/)
+* [pycharm](http://www.jetbrains.com/pytharm)
 * [VIM](http://www.vim.org")
