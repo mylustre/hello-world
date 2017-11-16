@@ -14,4 +14,6 @@
 [GitHub](http://github.com)
 
 
-*kdjdfj
+# 4.1 Python IDE
+* [pycharm](http://www.jetbrains.com/pytharm/)
+* [VIM](http://www.vim.org")
