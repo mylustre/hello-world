@@ -1,1 +1,16 @@
 qqand126  pmo..123
+
+
+git status
+
+git add 
+git commit -m (不加-m会进入类似vim编辑界面编辑交换文件，输入i进入insert模式，ESC，输入：再wq可退出编辑）
+
+
+查看用户名：$ git config user.name
+
+查看邮箱：    $ git config user.email
+
+修改用户名：$ git config --global user.name "cyx"
+
+修改邮箱：    $ git config --global user.email "328978553@qq.com"
