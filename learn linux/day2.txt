@@ -1,0 +1,8 @@
+有关tmux的使用
+tmux  Ctr+B  -> %
+          Ctr+B  ->"
+          Ctr+B   方向键 or   O
+          Ctr+B   D   挂起
+可以新建一个 tmux  重命名  
+在多个tmux间切换 
+           ctr+b ->S   上下键切换 
