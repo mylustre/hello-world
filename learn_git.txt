@@ -15,3 +15,15 @@ git commit -m (不加-m会进入类似vim编辑界面编辑交换文件，输入i进入insert模式，ESC
 修改用户名：$ git config --global user.name "cyx"
 
 修改邮箱：    $ git config --global user.email "328978553@qq.com"
+
+
+****************
+1.  mk dir   mylustre
+2.  cd mylustre
+3. gitbash  ->git init
+4.  ssh-keygen 创建密钥对，将公钥放到github账号sshkey中
+5.ssh -Tv git@github.com   确认能ssh连接。
+6.git clone git@github.com:mylustre/hello-world.git   （进入github  repo  clone按钮选择ssh方式）
+7.下载成功，cd hello-word   (在mylustre   git remote -v  是没有对应的远程仓库的)     git remote -v  可以看到已经添加了远程仓库
+8.git config -l 查看远程origin与本地master仓库对应  所以此时可以git pull
+9.修改文件 git status看到追踪情况。
