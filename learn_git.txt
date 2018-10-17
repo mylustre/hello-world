@@ -27,3 +27,5 @@ git commit -m (不加-m会进入类似vim编辑界面编辑交换文件，输入i进入insert模式，ESC
 7.下载成功，cd hello-word   (在mylustre   git remote -v  是没有对应的远程仓库的)     git remote -v  可以看到已经添加了远程仓库
 8.git config -l 查看远程origin与本地master仓库对应  所以此时可以git pull
 9.修改文件 git status看到追踪情况。
+10.add   commit
+11.git push （都按默认执行）进入github 发现已经正常push，后续如果继续修改可以继续push
