@@ -29,3 +29,7 @@ git commit -m (不加-m会进入类似vim编辑界面编辑交换文件，输入i进入insert模式，ESC
 9.修改文件 git status看到追踪情况。
 10.add   commit
 11.git push （都按默认执行）进入github 发现已经正常push，后续如果继续修改可以继续push
+12丢弃工作区的文件修改：git checkout -- filename
+13删除文件:
+git rm file git commit -m “remove file”（文件被删除）
+14  查看日志  git log
