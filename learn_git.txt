@@ -34,3 +34,13 @@ git commit -m (不加-m会进入类似vim编辑界面编辑交换文件，输入i进入insert模式，ESC
 git rm file git commit -m “remove file”（文件被删除）
 14  查看日志  git log
 15.  git fetch  origin git-study
+16  从远程仓库获取数据：
+
+     git fetch origin git-study--- 只是获取远程仓库的数据至 .git 目录，并未merge本地
+     git merge origin/git-study --- 把获取的远程仓库的数据手工merge至当前分支
+    git pull origin git-study---- 获取远程仓库的数据，并自动merge至当前的分支，相当于以上两步
+合并两个不同的项目：
+--allow-unrelated-histories
+把本地仓库的内容推送到远程库上：
+
+git push (-u) demo develop
