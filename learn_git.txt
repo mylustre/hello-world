@@ -33,3 +33,4 @@ git commit -m (不加-m会进入类似vim编辑界面编辑交换文件，输入i进入insert模式，ESC
 13删除文件:
 git rm file git commit -m “remove file”（文件被删除）
 14  查看日志  git log
+15.  git fetch  origin git-study
