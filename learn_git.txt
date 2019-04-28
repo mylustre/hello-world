@@ -89,7 +89,7 @@ User git
 
 git 使用场景及操作（  将本地代码上传到服务器的一个新项目中，新项目除了master分支，还新建了一个newfeature分支）
 1.在git服务器找到项目，复制clone地址（https的）
-2.本地目录新建目录，newFold，进入目录后启动gitbash    
+2.本地目录新建目录，newFold，进入目录后启动git bash here   
 3.gitclone    http://XXX@github.com:XXX/XXX.git  
 4.新建并切换分支：git checkout -b newfeature  (git branch newFeature ,git check newFeature)
 5.git pull  (提示  需要建立关联跟踪   git branch --set-upstream-to=origin/newFeature newFeature）
@@ -97,4 +97,8 @@ git 使用场景及操作（  将本地代码上传到服务器的一个新项目中，新项目除了master分支
 7.git add .
 8.git commit -m ' add ...'
 9.git push
+
+
+以上4,5,6可以简化为一步
+git checkout -b newFeature origin/newFeature (新建分支，设定远程关联关系，pull代码到本地，并切换到新分支）
 
